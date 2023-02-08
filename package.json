@@ -1,12 +1,27 @@
 {
     "name": "@moimob/common",
     "private": false,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "module",
     "author": "Anton Gustafsson",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MOIMOB/common.git"
+    },
+    "keywords": [
+        "common",
+        "MOIMOB"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MOIMOB/common/issues"
+    },
     "publishConfig": {
         "access": "public"
     },
+    "files": [
+        "dist"
+    ],
     "types": "./dist/types/index.d.ts",
     "main": "./dist/index.umd.cjs",
     "module": "./dist/index.js",
