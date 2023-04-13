@@ -5,6 +5,7 @@ export interface ContactFormModel {
     message: string;
     json: string;
     appStore: AppStore;
+    userId?: string;
 }
 
 export type ApplicationName = 'Drinkable' | 'Monthly Bill Planner' | 'Shut the Box';
