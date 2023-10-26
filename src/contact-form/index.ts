@@ -3,8 +3,9 @@ export interface ContactFormModel {
     applicationName: ApplicationName;
     messageType: string;
     message: string;
-    json: string;
     appStore: AppStore;
+    version: string;
+    json?: string;
     userId?: string;
 }
 
